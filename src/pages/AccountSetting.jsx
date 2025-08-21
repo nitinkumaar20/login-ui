@@ -23,8 +23,8 @@ const AccountSetting = () => {
 
         {/* User Info */}
         <div>
-          <h2 className="text-xl font-semibold text-gray-800">John Doe</h2>
-          <p className="text-gray-500">johndoe@example.com</p>
+          <h2 className="text-xl font-semibold text-gray-800">Marry Doe</h2>
+          <p className="text-gray-500">Marry@Gmail.com</p>
         </div>
       </div>
 

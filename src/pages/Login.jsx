@@ -10,7 +10,7 @@ const Login = () => {
             <h2 className="text-[40px] font-bold mb-[14px] leading-12">
               Signin to Your PopX account
             </h2>
-            <p className="mb-[33px] text-[#1D2226] opacity-60">
+            <p className="mb-[10px] text-[#1D2226] opacity-60">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
               ipsum inventore architecto quae corrupti. Fuga tempore.
             </p>
