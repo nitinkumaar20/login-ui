@@ -2,7 +2,8 @@ import React from "react";
 
 const AccountSetting = () => {
   return (
-    <div className="bg-[var(--bg-color)] h-[100vh] ">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+    <div className="bg-[var(--bg-color)] h-[100vh] border w-[380px]">
    <div className="bg-white px-[20px] py-5 text-2xl "> Account Settings</div>
     <div className="max-w-2xl  rounded-lg pt-[30px] ">
       {/* Top Section */}
@@ -10,7 +11,14 @@ const AccountSetting = () => {
         {/* Profile Picture */}
         <div className="w-20 h-20 rounded-full bg-gray-300 overflow-hidden flex items-center justify-center">
           {/* Replace with <img src="" /> */}
-          <span className="text-gray-600 text-xl">👤</span>
+<span className="inline-flex items-center">
+  <img
+    src="https://img.freepik.com/free-photo/portrait-cute-young-brunette-student-holding-exercise-books-isolated-white-wall_231208-11488.jpg?semt=ais_hybrid&w=740&q=80"
+    alt="Profile"
+    className="w-[5rem] h-[5rem] rounded-full object-cover"
+  />
+</span>
+
         </div>
 
         {/* User Info */}
@@ -29,6 +37,7 @@ const AccountSetting = () => {
         </p>
       </div>
       
+    </div>
     </div>
     </div>
   );
